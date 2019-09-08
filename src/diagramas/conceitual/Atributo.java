@@ -133,13 +133,6 @@ public class Atributo extends PreAtributo {
     public void setMultivalorado(boolean multivalorado) {
         if (this.multivalorado != multivalorado) {
             this.multivalorado = multivalorado;
-            if (isMultivalorado()) {
-                if (this.cardMinima == 0) {
-                    setOpcional(true);
-                } else {
-                    setOpcional(false);
-                }
-            }
             InvalidateArea();
         }
     }

@@ -193,9 +193,6 @@ public class PreAtributo extends FormaNaoRetangularBase {
     public void setIdentificador(boolean identificador) {
         if (this.identificador != identificador) {
             this.identificador = identificador;
-            if (identificador && opcional) {
-                setOpcional(false);
-            }
             InvalidateArea();
         }
     }
