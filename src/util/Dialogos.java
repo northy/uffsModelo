@@ -161,8 +161,8 @@ public class Dialogos {
         //f.setDialogTitle(Editor.fromConfiguracao.getValor("Controler.dlg.modelo.salvar"));
         f.setFileSelectionMode(JFileChooser.FILES_ONLY);
 
-        FileFilter filter = new FileNameExtensionFilter("BrModelo(bin)", Arquivo.brM3);
-        FileFilter filter2 = new FileNameExtensionFilter("BrModelo(xml)", Arquivo.xml);
+        FileFilter filter = new FileNameExtensionFilter("uffsModelo(bin)", Arquivo.brM3);
+        FileFilter filter2 = new FileNameExtensionFilter("uffsModelo(xml)", Arquivo.xml);
         f.addChoosableFileFilter(filter);
         f.addChoosableFileFilter(filter2);
         f.setAcceptAllFileFilterUsed(false);

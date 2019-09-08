@@ -105,7 +105,7 @@ public class PrintControler implements Printable {
     private Point page_range = new Point(0, 0);
     private PrintRequestAttributeSet Atributos = new HashPrintRequestAttributeSet();
     private PageRanges pgr = null;
-    private JobName jbn = new JobName("brModelo", Locale.getDefault());
+    private JobName jbn = new JobName("uffsModelo", Locale.getDefault());
 
     public void printSetup() {
         if (Atributos.isEmpty()) {

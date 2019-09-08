@@ -1,3 +1,6 @@
+# uffsModelo
+Fork da aplicação "brModelo" com alterações para melhor utilização em aulas.
+
 # brModelo
 
 Atualizado: brModelo 3.2 - correção de bugs e pequenas funcionalidades.

@@ -182,15 +182,6 @@ public class PreAtributo extends FormaNaoRetangularBase {
     public void setOpcional(boolean opcional) {
         if (this.opcional != opcional) {
             this.opcional = opcional;
-            PontoDeLinha qp = PontoLigacaoPrincipal(null);
-            if (opcional) {
-                this.identificador = false;
-                if (qp != null) {
-                    qp.getDono().setDashed(true);
-                }
-            } else if (qp != null) {
-                qp.getDono().setDashed(false);
-            }
             InvalidateArea();
         }
     }

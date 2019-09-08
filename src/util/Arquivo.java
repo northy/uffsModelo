@@ -12,7 +12,7 @@ import java.io.File;
  */
 public class Arquivo {
 
-    public static final String brM3 = "brM3"; 
+    public static final String brM3 = "ufM3"; 
     public static final String xml = "xml"; 
     public static final String bmp = "bmp"; 
     public static final String png = "png"; 

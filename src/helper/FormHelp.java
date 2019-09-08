@@ -54,7 +54,7 @@ public class FormHelp extends javax.swing.JFrame {
      */
     public FormHelp() {
         initComponents();
-        setTitle("brModelo: " + Editor.fromConfiguracao.getValor("Controler.interface.help"));
+        setTitle("uffsModelo: " + Editor.fromConfiguracao.getValor("Controler.interface.help"));
 
 //        addWindowListener(new WindowAdapter() {
 //            @Override

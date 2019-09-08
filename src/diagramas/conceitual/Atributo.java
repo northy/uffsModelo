@@ -122,30 +122,8 @@ public class Atributo extends PreAtributo {
                     this.cardMaxima = cardMinima;
                 }
             }
-            //if (isMultivalorado()) {
-                if (this.cardMinima == 0) {
-                    setOpcional(true);
-                } else {
-                    setOpcional(false);
-                }
-            //}
             InvalidateArea();
         }
-    }
-
-    @Override
-    public void setOpcional(boolean opcional) {
-        super.setOpcional(opcional);
-        if (opcional && cardMinima != 0) {
-            cardMinima = 0;
-        } else if (!opcional && cardMinima == 0) {
-            setCardMinima(1);
-        }
-//        if (opcional && !isMultivalorado() && cardMinima != 0) {
-//            cardMinima = 0;
-//        } else if (!opcional && !isMultivalorado() && cardMinima == 0) {
-//            cardMinima = 1;
-//        }
     }
 
     public boolean isMultivalorado() {

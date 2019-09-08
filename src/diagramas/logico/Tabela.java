@@ -1259,7 +1259,7 @@ public class Tabela extends baseDrawerFromForma {
     public void PrintDDL() {
         ArrayList<String> ddl = new ArrayList<>();
         DDLGenerate(ddl, DDL_PEGAR_TUDO);
-        String tmp = "/* brModelo: */\n";
+        String tmp = "/* uffsModelo: */\n";
         util.Dialogos.ShowDlgTextoReadOnly(Aplicacao.fmPrincipal.getRootPane(), ddl.stream().map(s -> "\n" + s).reduce(tmp, String::concat));
     }
 

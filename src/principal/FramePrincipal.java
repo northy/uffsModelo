@@ -73,7 +73,7 @@ public class FramePrincipal extends javax.swing.JFrame implements ISuperControle
             setLocationRelativeTo(null);
         }
         DoInit();
-        setTitle("brModelo");
+        setTitle("uffsModelo");
     }
 
     private void DoInit() {

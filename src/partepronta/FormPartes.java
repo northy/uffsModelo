@@ -41,7 +41,7 @@ public class FormPartes extends javax.swing.JFrame {
      */
     public FormPartes() {
         initComponents();
-        setTitle("brModelo: " + Editor.fromConfiguracao.getValor("Controler.interface.repositorio"));
+        setTitle("uffsModelo: " + Editor.fromConfiguracao.getValor("Controler.interface.repositorio"));
     }
 
     /**
