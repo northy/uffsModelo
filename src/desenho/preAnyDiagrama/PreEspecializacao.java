@@ -269,5 +269,8 @@ public class PreEspecializacao extends FormaTriangular {
         if (paintParcial && isParcial()) {
             g.drawString("p", x, y);
         }
+        else if (paintParcial && !isParcial()) {
+            g.drawString("t", x, y);
+        }
     }
 }
